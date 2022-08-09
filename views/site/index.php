@@ -2,12 +2,15 @@
 
 /* @var $this yii\web\View */
 
+use yii\helpers\Html;
+
 $this->title = 'AndALofAI';
 ?>
 <div class="site-index pt-0">
 
     <div id="fon" class="border mx-auto container-fluid">
-        <img src="/../../web/img/fon2.jpg" alt="background image" />
+        <?= Html::img('@web/img/fon2.jpg', ['alt' => "Litsey fon"]); ?>
+        <!-- <img src="/../../web/img/fon2.jpg" alt="background image" /> -->
     </div>
 <div class="container">
     <div class="jumbotron container-fluid mt-0 text-center bg-transparent">
@@ -21,27 +24,30 @@ $this->title = 'AndALofAI';
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../../web/img/slayd/aniq.jpg" class="car-img" alt="Los Angeles" width="100%">
+                    <?= Html::img('@web/img/slayd/aniq.jpg', ['alt' => "Aniq fanlar", 'class' => "car-img", 'width' => "100%"]); ?>
                     <div class="carousel-caption">
                         <h3>Aniq fanlar</h3>
                         <p class="d-none d-md-block">Matematika-fizika va Ingliz tili fanlari chuqurlashtirib o'qitiladigon guruhlar!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../../web/img/slayd/tabiy.jpg" class="car-img" alt="Chicago" width="100%">
+                    <?= Html::img('@web/img/slayd/tabiy.jpg', ['alt' => "Tabiiy fanlar", 'class' => "car-img", 'width' => "100%"]); ?>
+                    <!-- <img src="../../web/img/slayd/tabiy.jpg" class="car-img" alt="Tabiiy fanlar" width="100%"> -->
                     <div class="carousel-caption">
                         <h3>Tabiy fanlar</h3>
                         <p class="d-none d-md-block">Biologiya va Kimyo fanlari chuqurlashtirib o'qitiladigon guruhlar!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../../web/img/slayd/xorijiy.jpg" class="car-img" alt="New York" width="100%">
+                    <?= Html::img('@web/img/slayd/xorijiy.jpg', ['alt' => "Xorijiy filologiya", 'class' => "car-img", 'width' => "100%"]); ?>
+                    <!-- <img src="../../web/img/slayd/xorijiy.jpg" class="car-img" alt="Xorijiy filologiya" width="100%"> -->
                     <div class="carousel-caption">
                         <h3>Xorijiy filologiya</h3>
                         <p class="d-none d-md-block">Ingliz tili-Tarix va Ona tili fanlari chuqurlashtirib o'qitiladigon guruhlar!!</p>
                     </div>
                 </div><div class="carousel-item">
-                    <img src="../../web/img/slayd/ijtimoiy.jpg" class="car-img" alt="New York" width="100%">
+                    <?= Html::img('@web/img/slayd/ijtimoiy.jpg', ['alt' => "Ijtimoiy gumanitar", 'class' => "car-img", 'width' => "100%"]); ?>
+                    <!-- <img src="../../web/img/slayd/ijtimoiy.jpg" class="car-img" alt="Ijtimoiy gumanitar" width="100%"> -->
                     <div class="carousel-caption">
                         <h3>Ijtimoiy gumanitar</h3>
                         <p class="d-none d-md-block">Tarix-Ona tili va Ingliz tili fanlari chuqurlashtirib o'qitiladigon guruhlar!!</p>

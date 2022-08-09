@@ -1,4 +1,7 @@
 <?php
+
+use yii\helpers\Html;
+
 $this->title = 'Litsey rahbariyati';
 ?>
 <section class="testimonial text-center text-primary">
@@ -6,7 +9,8 @@ $this->title = 'Litsey rahbariyati';
     <div class="owl-carousel owl-theme mt-2">
       <div class="testimonial__card">
         <div class="img-box">
-          <img src="../../web/img/rahbar/yusupov.png" alt="testimonial image" />
+          <?= Html::img('@web/img/rahbar/yusupov.png', ['alt' => "Yusupov Lutfillo"]); ?>
+          <!-- <img src="../../web/img/rahbar/yusupov.png" alt="Yusupov Lutfillo" /> -->
         </div>
         <h2 class="testimonial__author mb-3">Yusupov Lutfillo<br />Sayitto'rayevich</h2>
         <p class="testimonial__content mx-auto">
@@ -15,7 +19,8 @@ $this->title = 'Litsey rahbariyati';
       </div>
       <div class="testimonial__card">
         <div class="img-box">
-          <img src="../../web/img/rahbar/xasanov.png" alt="testimonial image" />
+          <?= Html::img('@web/img/rahbar/xasanov.png', ['alt' => "Xasanov Qobiljon"]); ?>
+          <!-- <img src="../../web/img/rahbar/xasanov.png" alt="Xasanov Qobiljon" /> -->
         </div>
         <h2 class="testimonial__author mb-3">Xasanov Qobiljon<br />Qurbonalievich</h2>
         <p class="testimonial__content mx-auto">
@@ -24,7 +29,8 @@ $this->title = 'Litsey rahbariyati';
       </div>
       <div class="testimonial__card">
         <div class="img-box">
-          <img src="../../web/img/rahbar/turgunov.png" alt="testimonial image" />
+          <?= Html::img('@web/img/rahbar/turgunov.png', ['alt' => "Turg'unov Ilhomjon"]); ?>
+          <!-- <img src="../../web/img/rahbar/turgunov.png" alt="Turg'unov Ilhomjon" /> -->
         </div>
         <h2 class="testimonial__author mb-3">Turg'unov Ilhomjon<br />Abdumannobovich</h2>
         <p class="testimonial__content mx-auto">
@@ -33,7 +39,8 @@ $this->title = 'Litsey rahbariyati';
       </div>
       <div class="testimonial__card">
         <div class="img-box">
-          <img src="../../web/img/rahbar/muminov.png" alt="testimonial image" />
+          <?= Html::img('@web/img/rahbar/muminov.png', ['alt' => "Mo'minov Zoxidjon"]); ?>
+          <!-- <img src="../../web/img/rahbar/muminov.png" alt="Mo'minov Zoxidjon" /> -->
         </div>
         <h2 class="testimonial__author mb-3">Mo'minov Zoxidjon<br />Abdulxayevich</h2>
         <p class="testimonial__content mx-auto">
@@ -42,7 +49,8 @@ $this->title = 'Litsey rahbariyati';
       </div>
       <div class="testimonial__card">
         <div class="img-box">
-          <img src="../../web/img/rahbar/mamajonov.png" alt="testimonial image" />
+          <?= Html::img('@web/img/rahbar/mamajonov.png', ['alt' => "Mamajonov Ravshanbek"]); ?>
+          <!-- <img src="../../web/img/rahbar/mamajonov.png" alt="Mamajonov Ravshanbek" /> -->
         </div>
         <h2 class="testimonial__author mb-3">Mamajonov Ravshanbek<br />Abdullajonovich</h2>
         <p class="testimonial__content mx-auto">
@@ -51,7 +59,8 @@ $this->title = 'Litsey rahbariyati';
       </div>
       <div class="testimonial__card">
         <div class="img-box">
-          <img src="../../web/img/rahbar/pozilov.png" alt="testimonial image" />
+          <?= Html::img('@web/img/rahbar/pozilov.png', ['alt' => "Pozilov Ilyosbek"]); ?>
+          <!-- <img src="../../web/img/rahbar/pozilov.png" alt="Pozilov Ilyosbek" /> -->
         </div>
         <h2 class="testimonial__author mb-3">Pozilov Ilyosbek<br />Anvarovich</h2>
         <p class="testimonial__content mx-auto">
@@ -60,7 +69,8 @@ $this->title = 'Litsey rahbariyati';
       </div>
       <div class="testimonial__card">
         <div class="img-box">
-          <img src="../../web/img/rahbar/maxmudov.png" alt="testimonial image" />
+          <?= Html::img('@web/img/rahbar/maxmudov.png', ['alt' => "Maxmudov Oybek"]); ?>
+          <!-- <img src="../../web/img/rahbar/maxmudov.png" alt="Maxmudov Oybek" /> -->
         </div>
         <h2 class="testimonial__author mb-3">Maxmudov Oybek<br />Solijonovich</h2>
         <p class="testimonial__content mx-auto">

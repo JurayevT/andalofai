@@ -5,7 +5,8 @@
 
 use app\assets\AppAsset;
 use app\widgets\Alert;
-use yii\bootstrap4\Html;
+// use yii\bootstrap4\Html;
+use yii\helpers\Html;
 use yii\bootstrap4\Nav;
 use yii\bootstrap4\NavBar;
 
@@ -29,15 +30,9 @@ AppAsset::register($this);
     </p>
 </div>
     <?php
+    $brandLabel = Html::img('@web/img/logo.png', ['alt' => 'Logo', 'class' => "brand_img mr-3", 'style' => "display: inline-block; width: 40px;"]) . "<span class='brand_text'>" . Yii::$app->name . "</span>";
     NavBar::begin([
-        'brandLabel' => "<img src='../../web/img/logo.png'
-                   style='
-                       display: inline-block;
-                       width: 40px;'
-                   class='brand_img mr-3' />"
-                   . "<span class='brand_text'>"
-                       . Yii::$app->name
-                   . "</span>",
+        'brandLabel' => $brandLabel,
         'brandUrl' => Yii::$app->homeUrl,
         'brandOptions' => [
             'class' => 'text-light py-3',
