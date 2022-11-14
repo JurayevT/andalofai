@@ -114,7 +114,7 @@ AppAsset::register($this);
                 <h3 class="d-flex text-center">
                     Akademik litseyimiz web-saytiga xush kelibsiz!
                 </h3>
-              <a class="btn btn-primary w-100 mt-5 text-light" href="/web/index.php?r=site%2Flogin">admin</a>
+              <!-- <a class="btn btn-primary w-100 mt-5 text-light" href="/web/index.php?r=site%2Flogin">admin</a> -->
             </div>
             <div class="col-md-5 py-3">
                 <div>
