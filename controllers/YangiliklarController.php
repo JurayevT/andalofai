@@ -45,7 +45,7 @@ class YangiliklarController extends Controller
             'query' => Yangiliklar::find(),
             
             'pagination' => [
-                'pageSize' => 15
+                'pageSize' => 10
             ],
             'sort' => [
                 'defaultOrder' => [
