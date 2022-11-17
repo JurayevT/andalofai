@@ -49,10 +49,10 @@ $this->title = 'Litsey rahbariyati';
       </div>
       <div class="testimonial__card">
         <div class="img-box">
-          <?= Html::img('@web/img/rahbar/mamajonov.png', ['alt' => "Mamajonov Ravshanbek"]); ?>
+          <?= Html::img('@web/img/rahbar/karimov.png', ['alt' => "Mamajonov Ravshanbek"]); ?>
           <!-- <img src="../../web/img/rahbar/mamajonov.png" alt="Mamajonov Ravshanbek" /> -->
         </div>
-        <h2 class="testimonial__author mb-3">Mamajonov Ravshanbek<br />Abdullajonovich</h2>
+        <h2 class="testimonial__author mb-3">Karimov Shoxislom<br />Shoxruhbek o'g'li</h2>
         <p class="testimonial__content mx-auto">
           Andijon qishloq xo'jaligi va agrotexnologiyalari instituti qoshidagi  akademik litsey bo'lim boshlig'i.
         </p>
