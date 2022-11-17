@@ -124,7 +124,7 @@ class YangiliklarController extends Controller
 
         if ($this->request->isPost && $model->load($this->request->post())) {
             $img = UploadedFile::getInstance($model,'foto');
-            $model->foto=$img->name;
+            
             if (!empty($img)) {
                 $file = Url::to('@app/web/img/yangiliklar/') . $oldPhoto;
                 if (file_exists($file)) {

@@ -24,7 +24,7 @@ echo "
       "<div class='kard-body col-12 col-md-6 col-lg-7'>
         <h4 class='card-title mt-lg-3 mt-md-0' >".$model->title."</h4>
         <a href='". '/yangiliklar/view?post_id=' .$model->post_id."'>
-         <p class='card-text text-muted mt-3' style='text-indent: 1rem; text-align: justify'>".\yii\helpers\StringHelper::truncateWords($model->content, 40) ."</p>
+         <p class='card-text text-muted mt-3' style='text-indent: 1rem; text-align: justify'>".\yii\helpers\StringHelper::truncateWords($model->content, 35) ."</p>
         </a>
           <div class='mt-lg-5 mt-md-3'>
             <a href='". '/yangiliklar/view?post_id=' .$model->post_id."' class='btn btn-primary btn-lg kard-link'
