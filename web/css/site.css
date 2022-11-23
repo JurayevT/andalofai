@@ -286,6 +286,6 @@ a.desc:after {
         width: 50px !important;
     }
     .kard {
-        margin: 0;
+        margin: .1rem;
     }
 }
