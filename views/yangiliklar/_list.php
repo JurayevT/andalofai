@@ -27,7 +27,7 @@ $sImageFilePath=Html::img('@web/img/yangiliklar/' . $file, ['alt' => $model->tit
         </h4>
         <a href="<?= Url::toRoute(['yangiliklar/view', 'post_id' => $model->post_id]); ?>">
          <p class='card-text text-muted mt-3' style='text-indent: 1rem; text-align: justify'>
-            <?= \yii\helpers\StringHelper::truncateWords($model->content, 40) ?>
+            <?= \yii\helpers\StringHelper::truncateWords($model->content, 35) ?>
          </p>
         </a>
           <div class='mt-lg-5 mt-md-3'>
@@ -41,4 +41,3 @@ $sImageFilePath=Html::img('@web/img/yangiliklar/' . $file, ['alt' => $model->tit
           </div>
       </div>
   </div>
-";
