@@ -8,7 +8,7 @@ $this->title = 'AndALofAI';
 ?>
 <div class="site-index pt-0">
 
-    <div id="fon" class="border mx-auto container-fluid">
+    <div id="fon">
         <?= Html::img('@web/img/fon2.jpg', ['alt' => "Litsey fon"]); ?>
         <!-- <img src="/../../web/img/fon2.jpg" alt="background image" /> -->
     </div>
