@@ -9,6 +9,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Yangiliklar;
 
 class SiteController extends Controller
 {
@@ -61,8 +62,13 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $yangilik4 = Yangiliklar::find()->orderBy(['created_at' => SORT_DESC])->limit(4)->all();
+
       	$this->layout = 'mainForIndex';
-        return $this->render('index');
+
+        return $this->render('index', [
+            'yangilik4' => $yangilik4
+        ]);
     }
 
     /**

@@ -289,3 +289,10 @@ a.desc:after {
         margin: .1rem;
     }
 }
+
+.container .card {
+    transition: all .5s ease;
+}
+.container .card:hover {
+    transform: translateY(-10px);
+}

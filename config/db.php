@@ -3,8 +3,11 @@
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=andalofa_adu3',
-    'username' => 'andalofa_user',
-    'password' => 'aa123456',
+    'username' => 'root',
+    'password' => '',
+    // 'dsn' => 'mysql:host=localhost;dbname=andalofa_adu3',
+    // 'username' => 'andalofa',
+    // 'password' => 'Salom_Duny0',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
