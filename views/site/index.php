@@ -80,6 +80,16 @@ $this->title = 'AndALofAI';
         display: block;
         width: 70%;
         margin: 1rem auto;
+        height: 450px;" class="navoiy1" src="https://youtu.be/etYqEU_oPuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="text-center" style="font-size:1.4rem;font-weight:500;">AQXAI qoshidagi akademik litseyi  "Ulug'imsan Vatanim" mavzusida tayyorlagan video roligi.
+        </p>
+    </div>
+
+    <div class="container py-3">
+      	<iframe style="
+        display: block;
+        width: 70%;
+        margin: 1rem auto;
         height: 450px;" class="navoiy1" src="https://www.youtube.com/embed/5QUKwzWE6jM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p class="text-center" style="font-size:1.4rem;font-weight:500;">AQXAI akademik litsey  "9-May Xotira va qadirlash kuni" dan lavha
         </p>
@@ -135,7 +145,7 @@ $this->title = 'AndALofAI';
 					<img class='card-img-top' src='".$sImageFilePath."' alt='Card image cap' style='height: 170px'>
 					<div class='card-body p-2 pt-3'>
 						<h5 class='card-title mb-4'>".StringHelper::truncate($model->title, 16)."</h5>
-						<a href='". '/matnuz/view/?id=' .$model->post_id."' class='btn btn-sm btn-primary'>Batafsil</a>
+						<a href='". '/yangiliklar/view/?post_id=' .$model->post_id."' class='btn btn-sm btn-primary'>Batafsil</a>
 						<div style='float:right; font-size: .9rem; text-shadow: 0 1px 5px rgba(0, 0, 100, .3)' class='text-muted pt-2'>". \yii::$app->formatter->asRelativeTime($model->created_at) ."</div>
 					</div>
 					</div>

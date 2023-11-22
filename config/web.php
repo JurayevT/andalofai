@@ -10,6 +10,7 @@ $config = [
     'basePath' => dirname(__DIR__),
     'defaultRoute' => 'site/index',
     'bootstrap' => ['log'],
+    'timeZone' => 'Asia/Tashkent', 
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
