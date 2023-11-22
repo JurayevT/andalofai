@@ -27,11 +27,11 @@ $sImageFilePath=Html::img('@web/img/yangiliklar/' . $file, ['alt' => $model->tit
         </h4>
         <a href="<?= Url::toRoute(['yangiliklar/view', 'post_id' => $model->post_id]); ?>">
          <p class='card-text text-muted mt-3' style='text-indent: 1rem; text-align: justify'>
-            <?= \yii\helpers\StringHelper::truncateWords($model->content, 35) ?>
+            <?= \yii\helpers\StringHelper::truncateWords($model->content, 30) ?>
          </p>
         </a>
-          <div class='mt-lg-5 mt-md-3'>
-            <a href="<?= Url::toRoute(['yangiliklar/view', 'post_id' => $model->post_id]); ?>" class='btn btn-primary btn-lg kard-link' style='float: left'>
+          <div class='mt-4 mt-lg-5 mt-md-2 pt-lg-3'>
+            <a href="<?= Url::toRoute(['yangiliklar/view', 'post_id' => $model->post_id]); ?>" class='btn btn-primary btn-md-lg kard-link' style='float: left'>
                 Batafsil
             </a>
             <div style='float: right; font-size: 1.2rem; transform: translateY(50%)' class='kard-kurish text-success'>
